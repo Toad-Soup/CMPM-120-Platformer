@@ -101,7 +101,7 @@ class Platformer extends Phaser.Scene {
             }
             
             my.vfx.coins = this.add.particles(obj2.x, obj2.y, "kenny-particles", {
-            frame: ["circle_01.png"],
+            frame: ["star_06.png"],
             lifespan: 500,
             speed: { min: 100, max: 200 },
             angle: { min: 0, max: 360 },
@@ -155,7 +155,7 @@ class Platformer extends Phaser.Scene {
                 console.log("This runs every 2 seconds");
                 // Call your custom logic here
                 my.vfx.player = this.add.particles(my.sprite.player.x + Phaser.Math.Between(-10, 10), my.sprite.player.y +Phaser.Math.Between(-20, 20), "kenny-particles", {
-                    frame: "star_06.png", 
+                    frame: "star_08.png", 
                     lifespan: 500,
                     speed: 0,                     // Stationary
                     gravityY: 0,
