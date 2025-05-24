@@ -101,7 +101,7 @@ class Platformer extends Phaser.Scene {
             }
             
             my.vfx.coins = this.add.particles(obj2.x, obj2.y, "kenny-particles", {
-            frame: ["star_06.png"],
+            frame: ["circle_01.png"],
             lifespan: 500,
             speed: { min: 100, max: 200 },
             angle: { min: 0, max: 360 },
