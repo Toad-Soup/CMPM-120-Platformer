@@ -155,7 +155,7 @@ class Platformer extends Phaser.Scene {
                 console.log("This runs every 2 seconds");
                 // Call your custom logic here
                 my.vfx.player = this.add.particles(my.sprite.player.x + Phaser.Math.Between(-10, 10), my.sprite.player.y +Phaser.Math.Between(-20, 20), "kenny-particles", {
-                    frame: "star_08.png", 
+                    frame: "star_06.png", 
                     lifespan: 500,
                     speed: 0,                     // Stationary
                     gravityY: 0,
